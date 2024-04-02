@@ -1,0 +1,30 @@
+name: flutter_bluetooth
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bluetooth_serial: ^0.4.0
+  get_it: ^7.6.7
+  permission_handler: ^11.3.0
+  rxdart: ^0.27.7
+  asuka:
+    git:
+      url: https://github.com/Flutterando/asuka.git
+      ref: 82e0b98497d19d42e974d8252b31d13fde8e4ffb
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
